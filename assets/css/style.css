@@ -70,6 +70,15 @@ section {
     padding: 60px;
 }
 
+.section-title {
+    font-size: 55px;
+    color: #024e76;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    display: inline-block;
+    border-bottom: 3px solid;
+}
+
 /* Hero Style Start */
 .hero {
     background-image: url("../images/hero-bg.jpg");
@@ -78,7 +87,22 @@ section {
     background-position: center;
     position: relative;
 }
+
+/* homepage hero */
+/* .hero {
+    margin: 20px;
+    font-size: 20px;
+    background-color: white;
+    color: blue;
+  } */
+  
+  /* these two colors will override the ones above in .hero */
+  .hero-secondary {
+    background-color: black;
+    color: red;
+  }
 /* Hero Style End */
+
 
 /* Hero-form Style Start */
 .hero-form {
@@ -129,6 +153,10 @@ section {
     text-align: center;
 }
 
+.intro h2 {
+    
+  }
+
 .intro p {
     line-height: 1.7;
     color: #39a6b2;
@@ -145,6 +173,10 @@ section {
     background: #fce138;
 }
 
+.steps h2 {
+   
+  }
+  
 .steps div {
     margin-bottom: 80px;
   }
@@ -171,14 +203,7 @@ section {
 
 /* Steps Style End */
 
-.section-title {
-    font-size: 55px;
-    color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    display: inline-block;
-    border-bottom: 3px solid;
-}
+
   
 .primary-border {
     border-color: #fce138;
@@ -187,6 +212,10 @@ section {
 .secondary-border {
     border-color: #39a6b2;
 }
+
+.trainers {
+    text-align: center;
+  }
 
 .trainer {
     width: 900px;
@@ -229,3 +258,54 @@ section {
 .text-right {
     text-align: right;
  }
+
+.section-title {
+    font-size: 55px;
+    display: inline-block;
+    padding: 0 100px 20px 100px;
+    border-bottom: 3px solid;
+    margin-bottom: 35px;
+    color: #024e76;
+}
+
+/* REACH OUT STYLES START */
+.contact {
+    text-align: center;
+    background: #024e76;
+}
+
+.contact h2 {
+    color: #fce138;
+  }
+
+ .contact-info iframe {
+    width: 400px;
+    height: 400px;
+  }
+  
+.contact-info div {
+    width: 410px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    margin: 30px 0 0 60px;
+    color: white;
+}
+
+.contact-info h3 {
+    color: #fce138;
+    font-size: 32px;
+  }
+  
+.contact-info p, .contact-info address {
+    margin: 20px 0;
+    line-height: 1.5;
+    font-size: 20px;
+    font-style: normal;
+}
+  
+.contact-info a {
+    color: #fce138;
+}
+  
+/* REACH OUT STYLES END */
