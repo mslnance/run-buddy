@@ -390,25 +390,36 @@ section {
 
     .hero-cta, .hero-form {
         width: 100%;
-      }
+    }
       
-      .hero-cta {
+    .hero-cta {
         text-align: center;
-      }
+    }
 
-      .section-title {
+    .section-title {
         width: 80%;
-      }
+    }
       
-      .trainer {
+    .trainer {
         flex: 0 70%;
-      }
+    }
       
-      .contact-info iframe{
+     .contact-info iframe{
         flex: 1 100%;
-      }
+     }
   }
-  
+
+.service-grid-container {
+    display: grid;
+}
+
+.service-grid-item {
+width: 200px;
+height: 50px;
+background-color: orange;
+border: solid;
+color: black;
+}
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
 @media screen and (max-width: 768px) {
     section {
